@@ -73,11 +73,16 @@ h2#decouvre.display-4 {
     font-size: 1.5em;
     margin-top: 30px;
 }
-#teste-toi {
+.gros-bouton.teste-toi {
     background-color: #EF575F;
 }
 .gros-bouton.demarrer {
     background-color: #6C5FB1;
+}
+.btn.btn-outline-primary.envoyer {
+    background-color: #EF575F;
+    color: white;
+    border: 1px solid white;
 }
 
 
@@ -87,7 +92,7 @@ h2#decouvre.display-4 {
     padding: 50px;
 }
 #troisieme-section, #quatrieme-section {
-    padding: 60px;
+    padding: 50px;
 }
 #troisieme-section {
     background: url(https://adesandi.com/wp-content/uploads/2020/10/6-DecouvreLesCours-scaled.jpg)no-repeat center center ;
@@ -98,13 +103,6 @@ h2#decouvre.display-4 {
     background-color: #FFD600 !important;
     border: none;
 }
-#Invention {
-    height: 150px;
-    width: auto;
-}
-
-
-
 
 /*Footer******************************************************************************************************/
 #image-footer {

@@ -1,0 +1,122 @@
+/*Polices et tailles de texte générales.************************************************************************/
+h2, h3 {
+    font-family: 'Rosario', sans-serif;
+    color: #707070;
+    padding-bottom: 30px;
+}
+body {
+    font-family: 'Ruda', sans-serif;
+    color: #707070;
+}
+
+/*Nav-bar******************************************************************************************************/
+#logo {
+    width: 90px;
+}
+#burger {
+    width: 60px;
+}
+#navbarDropdownMenuLink {
+    border: 2px solid white;
+    background-color: #6C5FB1;
+    border-radius: 8px;
+    padding: 5px;
+    padding-top: 12px;
+    padding-left: 45px;
+    margin: 5px;
+    width: 180px;
+    height: 50px;
+}
+a {
+    color: white;
+}
+#compte, #langues {
+    background-color: #6C5FB1;
+    border: none;
+    color: white;
+}
+
+/*Cadre-pincipal***********************************************************************************************/
+#image-header {
+    width: 90%;
+    padding-left: 70px;
+}
+#cadre-princpal {
+    color: white;
+    padding-top: 200px;
+}
+header{
+    background: url(https://adesandi.com/wp-content/uploads/2020/10/fond.jpg) no-repeat center center ;
+    background-size: cover;
+    height:150px;
+}
+
+/*Cadre-secondaire*********************************************************************************************/
+#cadre-secondaire {
+    color: white;
+    margin-top: 100px;
+    padding: 30px;
+    background-color: #6C5FB1;
+}
+h2#decouvre.display-4 {
+    color: white !important;
+    font-size: 2rem;
+}
+
+/*Boutons******************************************************************************************************/
+.gros-bouton {
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 1.5em;
+    margin-top: 30px;
+}
+#teste-toi {
+    background-color: #EF575F;
+}
+.gros-bouton.demarrer {
+    background-color: #6C5FB1;
+}
+.btn.btn-outline-primary.envoyer {
+    background-color: #EF575F;
+    color: white;
+    border: 1px solid white;
+}
+
+/*Sections*****************************************************************************************************/
+#seconde-section, #quatrieme-section {
+    background-color: #FFD600;
+    padding: 50px;
+}
+#premiere-section, #troisieme-section {
+    padding: 50px;
+}
+
+
+
+
+/*Footer******************************************************************************************************/
+#image-footer {
+    width: 170%;
+}
+#second-colonne-footer {
+    background-color: #6C5FB1;
+    color: white;
+    padding: 50px;
+}
+footer h2, h3 {
+    color: white;
+    padding-top: 20px;
+}
+#ligne {
+    border-top: 2px solid white;
+    margin-top: 60px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+}
