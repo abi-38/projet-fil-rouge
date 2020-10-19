@@ -31,6 +31,18 @@ header{
     background-size: cover;
     height:890px;
 }
+@media (max-width: 700px) {
+    header{
+        background: url(https://adesandi.com/wp-content/uploads/2020/10/fond.jpg) no-repeat 20px center ;
+        background-size: cover;
+        height:890px;
+    }
+    #cadre-princpal {
+        color: #6C5FB1;
+        padding-right: 200px;
+        padding-left: 50px;
+    }
+}
 
 /*Cadre-secondaire*********************************************************************************************/
 #cadre-secondaire {
