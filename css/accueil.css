@@ -16,25 +16,6 @@ body {
 #burger {
     width: 60px;
 }
-#navbarDropdownMenuLink {
-    border: 2px solid white;
-    background-color: #6C5FB1;
-    border-radius: 8px;
-    padding: 5px;
-    padding-top: 12px;
-    padding-left: 45px;
-    margin: 5px;
-    width: 180px;
-    height: 50px;
-}
-a {
-    color: white;
-}
-#compte, #langues {
-    background-color: #6C5FB1;
-    border: none;
-    color: white;
-}
 
 /*Cadre-pincipal***********************************************************************************************/
 #image-header {
@@ -64,6 +45,37 @@ h2#decouvre.display-4 {
 }
 
 /*Boutons******************************************************************************************************/
+.langue {
+    border: 2px solid white;
+    border-radius: 8px;
+    background-color: #6C5FB1;
+    margin-right: 30px;
+}
+#langues {
+    background-color: #6C5FB1;
+    border: none;
+    color: white;
+}
+/*Fléche dropdown*/
+a {
+    color: white;
+}
+a:hover {
+    color: #a30008;
+}
+.compte {
+    border: 2px solid white;
+    border-radius: 8px;
+    background-color: #a30008;
+    margin-right: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#compte {
+    background-color: #a30008;
+    border: none;
+    color: white;
+}
 .gros-bouton {
     width: 200px;
     height: 60px;
@@ -74,18 +86,16 @@ h2#decouvre.display-4 {
     margin-top: 30px;
 }
 .gros-bouton.teste-toi {
-    background-color: #EF575F;
+    background-color: #a30008 ;
 }
 .gros-bouton.demarrer {
     background-color: #6C5FB1;
 }
 .btn.btn-outline-primary.envoyer {
-    background-color: #EF575F;
+    background-color: #a30008 ;
     color: white;
     border: 1px solid white;
 }
-
-
 /*Sections*****************************************************************************************************/
 #seconde-section, #cinquieme-section {
     background-color: #FFD600;
