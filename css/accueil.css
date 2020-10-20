@@ -27,13 +27,13 @@ body {
     padding-top: 200px;
 }
 header{
-    background: url(https://adesandi.com/wp-content/uploads/2020/10/fond.jpg) no-repeat center center;
+    background: url(../img/fond.jpg) no-repeat center center;
     background-size: cover;
     height:890px;
 }
 @media (max-width: 700px) {
     header{
-        background: url(https://adesandi.com/wp-content/uploads/2020/10/fond-mobile.jpg) no-repeat left center;
+        background: url(../img/fond-mobile.jpg) no-repeat left center;
         background-size: cover;
         height:900px;
     }
@@ -149,7 +149,7 @@ footer div div ul li:hover {
     padding: 50px;
 }
 #troisieme-section {
-    background: url(https://adesandi.com/wp-content/uploads/2020/10/second-rectangle-scaled.jpg)no-repeat center center ;
+    background: url(../img/second-rectangle.jpg)no-repeat center center ;
     background-size: cover;
     height:600px;;
 }

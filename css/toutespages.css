@@ -20,12 +20,12 @@ main a {
     width: 60px;
 }
 header {
-    background-image: url(https://adesandi.com/wp-content/uploads/2020/10/fond.jpg);
+    background-image: url(../img/fond.jpg);
     background-size: cover;
 }
 @media (max-width: 700px) {
     header{
-        background: url(https://adesandi.com/wp-content/uploads/2020/10/fond-mobile-2.jpg) no-repeat left center;
+        background: url(../img/fond-mobile-2.jpg) no-repeat left center;
         background-size: cover;
     }
     #cadre-princpal {
