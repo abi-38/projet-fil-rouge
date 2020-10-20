@@ -34,13 +34,29 @@
                           <img src="img/burger.png" alt="burger-menu" id="burger">
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+                                <button type="button" class="btn btn-secondary">Compte</button>
+                                <div class="btn-group" role="group">
+                                  <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Langues
+                                  </button>
+                                  <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                                    <a class="dropdown-item" href="#">Français</a>
+                                    <a class="dropdown-item" href="#">Italien</a>
+                                  </div>
+                                  <button type="button" class="btn btn-secondary">Accueil</button>
+                                  <button type="button" class="btn btn-secondary">Tests</button>
+                                </div>
+                            </div> <!--
                             <a class="dropdown-item d-lg-none d-block" href="#">Compte</a>
                             <a class="dropdown-item d-lg-none d-block" href="#">Langues</a>
-                            <a class="dropdown-item" href="#">Accueil</a>
-                            <a class="dropdown-item" href="#">Tests</a>
-                            <a class="dropdown-item" href="#">Cours</a>
+                            <div class="dropdown-divider d-lg-none d-block"></div>
+                            <a class="dropdown-item" href="http://127.0.0.1:5500/accueil.html">Accueil</a>
+                            <a class="dropdown-item" href="http://127.0.0.1:5500/lesTestsDeNiveau.html">Tests</a>
+                            <a class="dropdown-item" href="http://127.0.0.1:5500/leGuideDeTravail.html">Guide de travail</a>
+                            <a class="dropdown-item" href="http://127.0.0.1:5500/lesCours.html">Cours</a>-->
                         </div>
-                      </li>
+                    </li>
                 </ul>
         </nav>
         <div class="container-fluid">
@@ -52,7 +68,7 @@
                     <h1 class="display-4">Cours 100% gratuits</h1>
                     <p class="lead">Apprenez et perfectionnez- vous en français ou une autre langues !</p>
                     <hr class="my-4">
-                    <button class="gros-bouton teste-toi">Teste-toi</button>
+                    <a href=http://127.0.0.1:5500/lesTestsDeNiveau.html><button class="gros-bouton teste-toi">Teste-toi</button></a>
                 </div>
             </div>
         </div>
@@ -176,20 +192,9 @@
                         <div class="col-lg-4">
                             <h3>Les indispensables</h3>
                             <ul>
-                                <li>Les tests de niveau</li>
-                                <li>Le guide de travail</li>
-                                <li>Les cours</li>
-                                <li>Les meilleures fiches</li>
-                                <li>Tous les outils</li>
-                                <li>Créez des exercices</li>
-                            </ul>
-                        </div>
-                        <div class="col-lg-4">
-                            <h3>Les indispensables</h3>
-                            <ul>
-                                <li>Les tests de niveau</li>
-                                <li>Le guide de travail</li>
-                                <li>Les cours</li>
+                                <li><a href="http://127.0.0.1:5500/lesTestsDeNiveau.html">Les tests de niveau</a></li>
+                                <li><a href="http://127.0.0.1:5500/leGuideDeTravail.html">Le guide de travail</a></li>
+                                <li><a href="http://127.0.0.1:5500/lesCours.html">Les cours</a></li>
                                 <li>Les meilleures fiches</li>
                                 <li>Tous les outils</li>
                                 <li>Créez des exercices</li>
@@ -203,6 +208,17 @@
                                 <li>Cours d'allemand</li>
                                 <li>Cours de français</li>
                                 <li>Bac d'anglais</li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4">
+                            <h3>Informations</h3>
+                            <ul>
+                                <li>Conditions d'utilisation</li>
+                                <li>Conseils en sécurité</li>
+                                <li>Mentions légales</li>
+                                <li>Vies privées</li>
+                                <li>Cookies</li>
+                                <li>Aide et contact</li>
                             </ul>
                         </div>
                     </div>

@@ -76,6 +76,10 @@ a:hover {
 .gros-bouton.teste-toi {
     background-color: #a30008;
 }
+#cestParti {
+    width: 2px;
+    height: 1px;
+}
 .gros-bouton.demarrer {
     background-color: #6C5FB1;
 }
@@ -84,6 +88,17 @@ a:hover {
     color: white;
     border: 1px solid white;
 }
+.cestParti {
+    width: 150px;
+    height: 40px;
+    background-color: #6C5FB1;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
 /*Sections*****************************************************************************************************/
 #seconde-section, #quatrieme-section {
     background-color: #FFD600;
@@ -96,11 +111,67 @@ div div article img {
     width: 60%;
     padding-bottom: 20px;
 }
-.input {
-    padding: 10px;
-}
 input {
     padding: 10px;
+    margin: 10px;
+    border: 2px solid #707070;
+    border-radius: 20px;
+    font-size: 1.5em;
+}
+.number {
+    font-size: 1.5rem;
+    padding-right: 10px;
+    padding-top: 25px;
+}
+#alphabet {
+    color: #707070;
+}
+.son {
+    width: 20%;
+    margin-bottom: 20px;
+}
+.question {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+/*Planning de travail******************************************************************************************/
+div.tab-pane.fade.show.active {
+    padding: 10px;
+    margin: 10px;
+}
+.col-12.col-lg-2, .col-12.col-lg-6 {
+    padding: 10px;
+    border-bottom: 1px solid #707070;
+    padding-top: 40px;
+}
+a#home-tab.nav-link, a#profile-tab.nav-link, a#contact-tab.nav-link {
+    color: #707070;
+    border: 1px solid #707070;
+}
+a#home-tab.nav-link:hover, a#profile-tab.nav-link:hover, a#contact-tab.nav-link:hover {
+    background-color: #a30008;
+    border: 1px solid white;
+    color: white;
+}
+.progress {
+    height: 35px;
+    margin: 20px;
+    border-radius: 50px;
+    font-family: 'Ruda', sans-serif;
+    font-size: 1em;
+}
+div.progress-bar.bg-success {
+    background-color: #6C5FB1 !important;
+}
+div.progress-bar.bg-info {
+    background-color: #ef575f !important;
+}
+div.progress-bar.bg-warning {
+    background-color: #a30008 !important;
+}
+.col-12.espace {
+    height: 100px;
 }
 
 /*Footer******************************************************************************************************/
