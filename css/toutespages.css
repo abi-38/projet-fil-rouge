@@ -8,6 +8,9 @@ body {
     font-family: 'Ruda', sans-serif;
     color: #707070;
 }
+main a {
+    color: #707070;
+}
 
 /*Nav-bar******************************************************************************************************/
 #logo {
@@ -22,13 +25,15 @@ header {
 }
 @media (max-width: 700px) {
     header{
-        background: url(https://adesandi.com/wp-content/uploads/2020/10/fond.jpg) no-repeat 20px center ;
+        background: url(https://adesandi.com/wp-content/uploads/2020/10/fond-mobile-2.jpg) no-repeat left center;
         background-size: cover;
     }
     #cadre-princpal {
         color: #6C5FB1;
-        padding-right: 200px;
-        padding-left: 50px;
+    }
+    h1.display-4, .lead {
+        margin-left: 20px;
+        margin-right: 90px;
     }
 }
 
@@ -39,16 +44,25 @@ header {
     background-color: #6C5FB1;
     margin-right: 30px;
 }
+.langue:hover {
+    background-color:#a30008;
+}
 #langues {
-    background-color: #6C5FB1;
+    background-color: transparent;
     border: none;
     color: white;
 }
 /*Fléche dropdown*/
-a {
+nav a {
     color: white;
 }
 a:hover {
+    color: white;
+}
+footer div div ul li a:hover {
+    color: #a30008;
+}
+footer div div ul li:hover {
     color: #a30008;
 }
 .compte {
@@ -59,8 +73,11 @@ a:hover {
     padding-left: 30px;
     padding-right: 30px;
 }
+.compte:hover {
+    background-color: #ef575f;
+}
 #compte {
-    background-color: #a30008;
+    background-color: transparent;
     border: none;
     color: white;
 }
@@ -73,8 +90,14 @@ a:hover {
     font-size: 1.5em;
     margin-top: 30px;
 }
+.gros-bouton:hover {
+    background-color: #ef575f;
+}
 .gros-bouton.teste-toi {
     background-color: #a30008;
+}
+.gros-bouton.teste-toi:hover {
+    background-color: #ef575f;
 }
 #cestParti {
     width: 2px;
@@ -83,10 +106,16 @@ a:hover {
 .gros-bouton.demarrer {
     background-color: #6C5FB1;
 }
+.gros-bouton.demarrer:hover {
+    background-color: #a30008;
+}
 .btn.btn-outline-primary.envoyer {
     background-color: #a30008;
     color: white;
     border: 1px solid white;
+}
+.btn.btn-outline-primary.envoyer:hover {
+    background-color: #ef575f;
 }
 .cestParti {
     width: 150px;
@@ -97,6 +126,9 @@ a:hover {
     color: white;
     font-size: 1em;
     margin-bottom: 15px;
+}
+.cestParti:hover {
+    background-color: #a30008;
 }
 
 /*Sections*****************************************************************************************************/
@@ -111,7 +143,7 @@ div div article img {
     width: 60%;
     padding-bottom: 20px;
 }
-input {
+input.input {
     padding: 10px;
     margin: 10px;
     border: 2px solid #707070;
@@ -125,6 +157,15 @@ input {
 }
 #alphabet {
     color: #707070;
+}
+.lien:hover {
+    color: #a30008;
+}
+img.image:hover {
+    opacity: 0.33;
+}
+div.col-lg-3.article.img:hover {
+    opacity: 0.33;
 }
 .son {
     width: 20%;
@@ -196,4 +237,7 @@ footer h2, h3 {
 ul {
     list-style: none;
     padding-left: 0;
+}
+footer a {
+    color: white;
 }

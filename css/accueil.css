@@ -27,20 +27,27 @@ body {
     padding-top: 200px;
 }
 header{
-    background: url(https://adesandi.com/wp-content/uploads/2020/10/fond.jpg) no-repeat center center ;
+    background: url(https://adesandi.com/wp-content/uploads/2020/10/fond.jpg) no-repeat center center;
     background-size: cover;
     height:890px;
 }
 @media (max-width: 700px) {
     header{
-        background: url(https://adesandi.com/wp-content/uploads/2020/10/fond.jpg) no-repeat 20px center ;
+        background: url(https://adesandi.com/wp-content/uploads/2020/10/fond-mobile.jpg) no-repeat left center;
         background-size: cover;
-        height:890px;
+        height:900px;
     }
     #cadre-princpal {
         color: #6C5FB1;
-        padding-right: 200px;
-        padding-left: 50px;
+    }
+    h1.display-4, .lead {
+        margin-left: 20px;
+        margin-right: 90px;
+    }
+    #cadre-secondaire {
+        margin-top: 0px !important;
+        padding: 0px;
+        height: 500px;
     }
 }
 
@@ -63,8 +70,11 @@ h2#decouvre.display-4 {
     background-color: #6C5FB1;
     margin-right: 30px;
 }
+.langue:hover {
+    background-color:#a30008;
+}
 #langues {
-    background-color: #6C5FB1;
+    background-color: transparent;
     border: none;
     color: white;
 }
@@ -73,6 +83,12 @@ a {
     color: white;
 }
 a:hover {
+    color: white;
+}
+footer div div ul li a:hover {
+    color: #a30008;
+}
+footer div div ul li:hover {
     color: #a30008;
 }
 .compte {
@@ -83,8 +99,11 @@ a:hover {
     padding-left: 30px;
     padding-right: 30px;
 }
+.compte:hover {
+    background-color: #ef575f;
+}
 #compte {
-    background-color: #a30008;
+    background-color: transparent;
     border: none;
     color: white;
 }
@@ -97,17 +116,30 @@ a:hover {
     font-size: 1.5em;
     margin-top: 30px;
 }
+.gros-bouton:hover {
+    background-color: #ef575f;
+}
 .gros-bouton.teste-toi {
-    background-color: #a30008 ;
+    background-color: #a30008;
+}
+.gros-bouton.teste-toi:hover {
+    background-color: #ef575f;
 }
 .gros-bouton.demarrer {
     background-color: #6C5FB1;
 }
+.gros-bouton.demarrer:hover {
+    background-color: #a30008;
+}
 .btn.btn-outline-primary.envoyer {
-    background-color: #a30008 ;
+    background-color: #a30008;
     color: white;
     border: 1px solid white;
 }
+.btn.btn-outline-primary.envoyer:hover {
+    background-color: #ef575f;
+}
+
 /*Sections*****************************************************************************************************/
 #seconde-section, #cinquieme-section {
     background-color: #FFD600;
@@ -117,7 +149,7 @@ a:hover {
     padding: 50px;
 }
 #troisieme-section {
-    background: url(https://adesandi.com/wp-content/uploads/2020/10/6-DecouvreLesCours-scaled.jpg)no-repeat center center ;
+    background: url(https://adesandi.com/wp-content/uploads/2020/10/second-rectangle-scaled.jpg)no-repeat center center ;
     background-size: cover;
     height:600px;;
 }
