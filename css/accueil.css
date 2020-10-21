@@ -124,6 +124,10 @@ footer div div ul li:hover {
 }
 .gros-bouton.demarrer {
     background-color: #6C5FB1;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .gros-bouton.demarrer:hover {
     background-color: #a30008;
