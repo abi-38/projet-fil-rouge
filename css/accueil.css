@@ -64,19 +64,27 @@ h2#decouvre.display-4 {
 }
 
 /*Boutons******************************************************************************************************/
-.langue {
+.nav-link.dropdown-toggle.langue {
+    color: white;
+    background-color: #6C5FB1;
     border: 2px solid white;
     border-radius: 8px;
-    background-color: #6C5FB1;
     margin-right: 30px;
 }
-.langue:hover {
+.nav-link.dropdown-toggle.langue:hover {
     background-color:#a30008;
 }
-#langues {
-    background-color: transparent;
-    border: none;
+#compte {
     color: white;
+    background-color: #a30008;
+    border: 2px solid white;
+    border-radius: 8px;
+    margin-right: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#compte:hover {
+    background-color: #ef575f;
 }
 /*Fléche dropdown*/
 a {
@@ -85,27 +93,12 @@ a {
 a:hover {
     color: white;
 }
+/****************/
 footer div div ul li a:hover {
     color: #a30008;
 }
 footer div div ul li:hover {
     color: #a30008;
-}
-.compte {
-    border: 2px solid white;
-    border-radius: 8px;
-    background-color: #a30008;
-    margin-right: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
-}
-.compte:hover {
-    background-color: #ef575f;
-}
-#compte {
-    background-color: transparent;
-    border: none;
-    color: white;
 }
 .gros-bouton {
     width: 200px;
@@ -119,10 +112,14 @@ footer div div ul li:hover {
 .gros-bouton:hover {
     background-color: #ef575f;
 }
-.gros-bouton.teste-toi {
+.gros-bouton.test-toi {
     background-color: #a30008;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.gros-bouton.teste-toi:hover {
+.gros-bouton.test-toi:hover {
     background-color: #ef575f;
 }
 .gros-bouton.demarrer {
