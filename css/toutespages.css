@@ -153,6 +153,13 @@ input.input {
 .lien:hover {
     color: #a30008;
 }
+.image {
+    width: 60%;
+    margin-bottom: 10px;
+}
+.icône {
+    width: 50%;
+}
 img.image:hover {
     opacity: 0.33;
 }
